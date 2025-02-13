@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background: #2b0202;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%),url(stop1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+h1{
+    color: #E82561;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    letter-spacing: 1px;
+    text-decoration: underline ;
+}
+.container{
+    background-color:transparent;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    outline: 2px solid #E82561;
+}
+.timerDisplay{
+    position: relative;
+    width: 92%;
+    background: #ffffff;
+    left: 4%;
+    padding: 40px 0;
+    font-family: 'Roboto mono',monospace;
+    color: black;
+    font-size: 45px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background: linear-gradient(to right,#E82561,#FCC737);
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:nth-last-child(2){
+  background-color: #5CB338;
+}
+.buttons button:nth-last-child(1){
+  background-color: #FF204E;
+}
+  
